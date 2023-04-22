@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Котодім</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header container">
       <a class="site-logo" href="./index.html"
         ><img
           src="./img/cat-logo.svg"
@@ -18,11 +28,40 @@
         />
         Котодім</a
       >
-      <nav>
+      <nav class="page-nav">
         <a href="">Обрати котика</a>
         <a href="">Задонатити котикам</a>
         <a href="">Контакти</a>
       </nav>
     </header>
+    <section class="section container">
+      <h2 class="section-title">
+        Ці друзяки готові приймати твою любов і піклування
+      </h2>
+      <ul class="cat-list">
+        <li>
+          <img src="./img/cat 1.jpg" alt="" />
+          <div class="content">
+            <h3>Барбарис</h3>
+            <p>Хижий для ворогів, ласкавий та м’якесенький до своїх.</p>
+          </div>
+        </li>
+        <li>
+          <img src="./img/cat 2.jpg" alt="" />
+          <div class="content">
+            <h3>Мишка</h3>
+            <p>Киця з роду котів-талісманів. Несе удачу та затишок в дім.</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="./img/cat 3.jpg" alt="" />
+          <div class="content">
+            <h3>Капітан</h3>
+            <p>Всюди головний. Підкорить тебе, але ти будеш щасливий.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
