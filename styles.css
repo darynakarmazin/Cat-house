@@ -19,7 +19,9 @@ img {
   max-width: 100%;
 }
 .container {
-  width: 944px;
+  width: 960px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,17 +58,20 @@ img {
 .page-nav a:hover {
   color: #f07f2e;
 }
+.section {
+  margin-bottom: 60px;
+}
 .section-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
   letter-spacing: 0.5px;
   color: #2c2c2c;
-  margin-bottom: 40px;
 }
 .cat-list {
   display: flex;
   gap: 40px;
+  margin-top: 40px;
 }
 .cat-list li {
   overflow: hidden;
@@ -78,4 +83,28 @@ img {
 }
 .cat-list .content {
   padding: 16px;
+}
+.cat-list h3 {
+  margin-bottom: 8px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 40px;
+}
+.gallery li {
+  flex-basis: calc((100% - 5 * 16px) / 6);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.section-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+  margin-top: 8px;
+}
+.gallery li:hover {
+  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
 }
