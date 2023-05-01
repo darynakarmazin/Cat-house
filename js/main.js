@@ -21,5 +21,7 @@ next.addEventListener("click", onNextClick);
 prev.addEventListener("click", onPrevClick);
 
 const lightbox = new SimpleLightbox(".gallery a", {
-  /* options */
+  overlayOpacity: 0.75,
 });
+
+AOS.init();
